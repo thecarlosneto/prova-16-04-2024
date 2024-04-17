@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(230, 190, 241);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(30, 0, 39);
+    color: white;
+    margin: 0 auto;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#box{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    column-gap: 64px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navItem{
+    font-size: 14px;
+    font-weight: 300;
+    position: center;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    margin: 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrar{
+    padding: 20px;
+    background-color: rgb(69, 34, 80);
+    border-radius: 8px;
+}
+
+label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="email"], input[type="password"], input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(30, 0, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(230, 190, 241);
+}
+
+.esqueciSenha{
+    color: rgb(230, 190, 241);
+}
+
+.esqueciSenha:hover{
+    text-decoration: underline;
+    color: rgb(243, 230, 247);
+}
